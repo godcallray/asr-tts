@@ -6,7 +6,9 @@
 
 将以下代码添加到文件“chatollama.py”和“demo.py”
 
-import torch device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+import torch 
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
 
@@ -14,7 +16,8 @@ import torch device = torch.device('cuda' if torch.cuda.is_available() else 'cpu
 
 转到链接：https://alphacephei.com/vosk/models 下载 ASR 模型。
 
-使用 git clone https://huggingface.co/2Noise/ChatTTS 获取 TTS 模型。cd 进入 ChatTTS/asset，复制里面的所有内容并粘贴在 ChatTTS 下
+使用 git clone https://huggingface.co/2Noise/ChatTTS 获取 TTS 模型。
+进入 ChatTTS/asset，复制里面的所有内容并粘贴在 ChatTTS 下
 
 进入“demo.py”的方向，使用代码“python demo.py”运行它。
 
