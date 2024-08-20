@@ -1,9 +1,6 @@
 # Local talking assistant
 Local ASR-LLM-TTS
 
-Change the path to your own path!
-
-Download Ollama to your own PC, Pull the model you need!
 
 ## If you are using Nvidia GPU to run this, 
 
@@ -22,6 +19,11 @@ Use git clone https://huggingface.co/2Noise/ChatTTS to get TTS model.
 cd into ChatTTS/asset, copy everything inside and paste is under ChatTTS
 
 Get into the direction of "demo.py", use the code 'python demo.py' to run it.
+
+Download Ollama to your own PC, Pull the model you need to the direction under file local-chat-assistant.
+
+Change the path to your own path!!!
+
 
 WHen it is showing:
 INFO:CHatTTS.core:All initialized
