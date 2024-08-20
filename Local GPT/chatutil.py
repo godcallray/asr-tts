@@ -1,5 +1,3 @@
-# ChatTTS-01.py
- 
 import ChatTTS
 import torch
 import torchaudio
