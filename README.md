@@ -5,7 +5,7 @@ Change the path to your own path!
 
 Download Ollama to your own PC, Pull the model you need!
 
-## If you are using Nvida GPU to run this, 
+## If you are using Nvidia GPU to run this, 
 
 Add following code to file "chatollama.py" and "demo.py"
 
@@ -16,7 +16,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 ## How to use
 
-Get into the direction of "demo.py", use the code python demo.py to run it.
+Get into the direction of "demo.py", use the code 'python demo.py' to run it.
 
 WHen it is showing:
 INFO:CHatTTS.core:All initialized
