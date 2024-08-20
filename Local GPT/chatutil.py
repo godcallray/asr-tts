@@ -53,11 +53,5 @@ class ChatTTSUtil:
 
 if __name__ == "__main__":
     chUtil = ChatTTSUtil()
-    texts = [
-        "大家好，我是Chat T T S，欢迎来到畅的科技工坊。",
-        "太棒了，我竟然是第一位嘉宾。",
-        "我是Chat T T S， 是专门为对话场景设计的文本转语音模型，例如大语言助手对话任务。我支持英文和中文两种语言。最大的模型使用了10万小时以上的中英文数据进行训练。目前在huggingface中的开源版本为4万小时训练且未S F T 的版本。",
-    "耶，我们开始吧"
-    ]
     chUtil.setInferCode(0.8 , 0.7 , 20 , speed = "[speed_3]")
     chUtil.generateSound(texts)
