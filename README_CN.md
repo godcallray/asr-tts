@@ -6,7 +6,9 @@
 
 将以下代码添加到文件“chatollama.py”和“demo.py”
 
--- import torch device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+import torch device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+
 
 如何使用
 
@@ -16,13 +18,15 @@
 
 进入“demo.py”的方向，使用代码“python demo.py”运行它。
 
-将 Ollama 下载到您自己的电脑上，将您需要的模型拉到文件 local-chat-assistant 下的方向。
+将 Ollama 下载到您自己的电脑上，将您需要的模型拉到文件 LocalGPT 下。
 
 将路径更改为您自己的路径！！！
 
 当它显示：INFO:CHatTTS.core:All initialized
 
 按键盘上的“b”开始录制 按键盘上的“s”停止录制 按键盘上的“e”退出
+
+
 
 Cuda 要求
 
