@@ -16,7 +16,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 Go to link: https://alphacephei.com/vosk/models to download ASR model.
 
 Use git clone https://huggingface.co/2Noise/ChatTTS to get TTS model.
-cd into ChatTTS/asset, copy everything inside and paste is under ChatTTS
+Get into ChatTTS/asset, copy everything inside and paste is under ChatTTS
 
 Get into the direction of "demo.py", use the code 'python demo.py' to run it.
 
