@@ -6,10 +6,10 @@ Local ASR-LLM-TTS
 
 Add following code to file "chatollama.py" and "demo.py"
 
---
+
 import torch
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
---
+
 
 ## How to use
 
@@ -20,7 +20,7 @@ cd into ChatTTS/asset, copy everything inside and paste is under ChatTTS
 
 Get into the direction of "demo.py", use the code 'python demo.py' to run it.
 
-Download Ollama to your own PC, Pull the model you need to the direction under file local-chat-assistant.
+Download Ollama to your own PC, Pull the model you need to the direction under file Local GPT.
 
 Change the path to your own path!!!
 
@@ -38,6 +38,3 @@ Press 'e' on keyboard to exit
 Cuda >= 11.8
 Cuda toolkit follow Cuda version
 
-# Ollama
-
-Pull the model under Local GPT
