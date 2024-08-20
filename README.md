@@ -1,4 +1,4 @@
-# Local talking assitant
+# Local talking assistant
 Local ASR-LLM-TTS
 
 Change the path to your own path!
