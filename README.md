@@ -1,4 +1,4 @@
-# asr-tts
+# Local talking assitant
 Local ASR-LLM-TTS
 
 Change the path to your own path!
