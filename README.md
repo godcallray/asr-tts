@@ -17,6 +17,9 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 ## How to use
 
 Get into the direction of "demo.py", use the code python demo.py to run it.
+WHen it is showing:
+INFO:CHatTTS.core:All initialized
+
 
 # Cuda requirment
 
